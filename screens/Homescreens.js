@@ -2,7 +2,6 @@ import {StyleSheet, Text, View, Image, ScrollView} from 'react-native';
 import React, {useContext} from 'react';
 import MenuComponents from '../Components/MenuComponents';
 import {useNavigation} from '@react-navigation/native';
-import {cartItem} from '../Context';
 
 const Homescreens = () => {
  
