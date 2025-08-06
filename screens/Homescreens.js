@@ -5,9 +5,7 @@ import {useNavigation} from '@react-navigation/native';
 import {cartItem} from '../Context';
 
 const Homescreens = () => {
-  const {cart, setCart} = useContext(cartItem);
-  console.log(cart, 'cartitem');
-  console.log(cart.length, 'no of cart');
+ 
 
   const data = [
     {
